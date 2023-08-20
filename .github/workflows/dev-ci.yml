@@ -44,7 +44,8 @@ jobs:
     - name: DEV make application.properties 파일 생성
       run: |
         ## create application.yml
-        cd ../src/main/resources
+        mkdir ./src/main/resources
+        cd ./src/main/resources
 
         # application.yml 파일 생성
         touch ./application.yml
